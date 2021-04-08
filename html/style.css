@@ -1,0 +1,85 @@
+html {
+	overflow: hidden;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#container {
+	position: absolute;
+	top: 2vh;
+	bottom: 100%;
+	left: 1%; /*25*/
+	width: 193px;
+	height: 167px;
+	display: none;
+	flex-direction: column;
+}
+
+header {
+	width: 193px;
+	height: 167px;
+	/*background-color: #a519ea;*/
+	opacity: 0.8;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+
+}
+
+header img {
+	width: 193px;
+	height: 167px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+}
+
+/* Firefox old*/
+@-moz-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+
+@-webkit-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@-ms-keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+} 
+/* Opera and prob css3 final iteration */
+@keyframes blink {
+    0% {
+        opacity:1;
+    }
+    50% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
