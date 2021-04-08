@@ -12,5 +12,5 @@ Logo Watermark is a ridiculous easy script that I was requested to make and coul
 * I will not provide support for any edits made to the files.
 
 ## Showcase:
-![showcase](https://i.imgur.com/CtIN49K.gifv)
+![showcase](https://i.imgur.com/CtIN49K.gif)
 A simple FiveM script made by Jordan
