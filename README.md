@@ -13,4 +13,5 @@ Logo Watermark is a ridiculous easy script that I was requested to make and coul
 
 ## Showcase:
 [Click Me!](https://i.imgur.com/CtIN49K.gif)
+
 A simple FiveM script made by Jordan
