@@ -46,6 +46,10 @@ RegisterCommand('togglewm', function()
       TriggerEvent('DisplayWM', false) 
     end
   else 
-    TriggerEvent('chat:addMessage', 255,0,0, false, "^1This server has disabled the option for you to toggle the watermark!")
+    TriggerEvent('chat:addMessage', {
+      color = { 255, 0, 0},
+      multiline = false,
+      args = {"^9[Logo-WM] ^1This server has disabled the option for you to toggle the watermark!"}
+    })    
   end
 end)
