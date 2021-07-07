@@ -29,3 +29,13 @@ Citizen.CreateThread(function()
     return
   end
 end)
+
+RegisterCommand('togglewm', function()
+  if not isUiOpen then
+    SendNUIMessage({displayWindow = 'true'})
+    isUiOpen = true
+  else
+    SendNUIMessage({displayWindow = 'false'})
+    isUiOpen = false  
+  end
+end)

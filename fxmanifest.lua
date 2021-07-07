@@ -7,7 +7,7 @@ game "gta5"
 
 -- Define the resource metadata
 name "Logo Watermark"
-description "A Simple Logo Watermark Made For SACRP"
+description "A Simple Logo Watermark"
 author "Jordan.#2139"
 version "v1.0.0"
 
