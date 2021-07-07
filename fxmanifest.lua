@@ -9,7 +9,7 @@ game "gta5"
 name "Logo Watermark"
 description "A Simple Logo Watermark"
 author "Jordan.#2139"
-version "v1.0.0"
+version "v1.2.0"
 
 
 
