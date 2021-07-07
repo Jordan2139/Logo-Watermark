@@ -13,7 +13,7 @@ local userTurnedOff = false
 Citizen.CreateThread(function()
   if NetworkIsSessionStarted() then
     TriggerEvent("chat:addSuggestion", "/togglewm", "help text", {
-      { name='togglewm', help='Toggle the watermark' }
+      { help='Toggle the watermark' }
     })
     return
   end
@@ -31,14 +31,10 @@ RegisterNetEvent('DisplayWM', function (status)
     SendNUIMessage({displayWindow = 'true'})
     isUiOpen = true
     userTurnedOff = false
-    print(isUiOpen)
-    print(userTurnedOff)
   else
     SendNUIMessage({displayWindow = 'false'})
     isUiOpen = false
     userTurnedOff = true
-    print(isUiOpen)
-    print(userTurnedOff)
   end
 end)
 
