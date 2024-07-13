@@ -14,7 +14,7 @@ body {
 	left: 1%; /*25*/
 	width: 193px;
 	height: 167px;
-	display: none;
+	display: flex;
 	flex-direction: column;
 }
 
